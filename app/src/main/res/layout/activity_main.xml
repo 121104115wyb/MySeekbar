@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:orientation="horizontal"
+    tools:context="demo.test.myseekbar.MainActivity">
+    <!--<demo.test.myseekbar.ScaleView-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+        <!--android:id="@+id/mine_img_low"-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="26dp"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:src="@mipmap/icon_work_speed_low" />-->
+
+    <!--&lt;!&ndash;<SeekBar&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/seek"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="center_vertical"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:max="100"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:maxHeight="2dip"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:minHeight="2dip"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingEnd="6dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingStart="6dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:progressDrawable="@drawable/test"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:thumb="@drawable/thumb"/>&ndash;&gt;-->
+
+    <!--<demo.test.myseekbar.MySeekBar-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="20dp">-->
+
+    <!--</demo.test.myseekbar.MySeekBar>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/mine_img_high"-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="26dp"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:src="@mipmap/icon_work_speed_high" />-->
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:background="@drawable/ic_launcher_background"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+</LinearLayout>

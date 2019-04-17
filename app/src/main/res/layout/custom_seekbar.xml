@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="0dp"
+    android:paddingEnd="0dp">
+
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:max="100"
+        android:maxHeight="2dip"
+        android:minHeight="2dip"
+        android:paddingEnd="6dp"
+        android:paddingStart="6dp"
+        android:progressDrawable="@drawable/test" />
+
+</FrameLayout>
